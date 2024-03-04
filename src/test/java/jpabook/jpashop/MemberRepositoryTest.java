@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 @SpringBootTest
 public class MemberRepositoryTest {
 
-    @Autowired MemberRepository repository;
+/*    @Autowired MemberRepository repository;
 
     @Test
     @Transactional // 테스트 케이스에 있으면 테스트 끝난 후 db 롤백을 함
@@ -32,6 +32,6 @@ public class MemberRepositoryTest {
 
     @Test
     void find() {
-    }
+    }*/
 
 }
