@@ -15,8 +15,11 @@ spring:
 #        show_sql: true
 #        format_sql: true
 
+
 logging:
   level:
     org.hibernate.sql: debug
     # 스프링 3.x이상은 아래
     org.hibernate.orm.jdbc.bind: trace
+
+
