@@ -7,6 +7,7 @@ spring:
 
   jpa:
     hibernate:
+#      ddl-auto: none
       ddl-auto: create
     properties:
       hibernate:
@@ -21,4 +22,4 @@ logging:
   level:
     org.hibernate.sql: debug
     # 스프링 3.x이상은 아래
-    org.hibernate.orm.jdbc.bind: trace
+#    org.hibernate.orm.jdbc.bind: trace

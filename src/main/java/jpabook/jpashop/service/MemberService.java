@@ -44,4 +44,10 @@ public class MemberService {
         return memberRepository.findOne(memberId);
     }
 
+    //회원 수정
+    @Transactional
+    public void update(Long id, String name) { // 변경 감지
+        Member member = memberRepository.findOne(id); // 영속 상태
+        member.setName(name);
+    }
 }
